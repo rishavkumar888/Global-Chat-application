@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "646051832632",
+    "project_id": "messagepractice-7b768",
+    "storage_bucket": "messagepractice-7b768.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646051832632:android:adf3ce39f26207de5e17cd",
+        "android_client_info": {
+          "package_name": "com.rishav.messagepractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646051832632-i7pstdb1kilv8v4te5dqtu954ihrkjgc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rishav.messagepractice",
+            "certificate_hash": "d1331d0623eea6ada3e0944e795b83c18a713b19"
+          }
+        },
+        {
+          "client_id": "646051832632-a2q1p5tgbkm1tlniupjq1aervisb1cab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt95LKnuauU-IRgGG85-i1JUWQ3VqR2Cc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646051832632-a2q1p5tgbkm1tlniupjq1aervisb1cab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

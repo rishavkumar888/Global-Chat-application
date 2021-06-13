@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    >
+    
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/Theme.MessagePractice.AppBarOverlay"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/register_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="6dp"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/register_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:textColor="#FF5722"
+            android:hint="Username"
+            android:textColorHint="#FF5722"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:textColor="#FF5722"
+            android:hint="Email"
+            android:textColorHint="#FF5722"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/register_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:textColor="#FF5722"
+            android:hint="Password"
+            android:textColorHint="#FF5722"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            >
+        </EditText>
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            >
+        </Button>
+    </LinearLayout>
+</RelativeLayout>
